@@ -7,8 +7,42 @@
     <list default="true" id="93dbe2f8-3909-4f09-b971-1ec189c8fe33" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/../Q.A.8.2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Q.A.8.2/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Q.A.8.2/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Q.A.8.2/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Q.A.8.2/src/main/java/org/example/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Q.A.8.2/src/main/java/ru/netology/statistic/StaticsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Q.A.8.2/src/main/java/ru/netology/statistic/StaticsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Q.A.8.2/target/Q.A.8.2.-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Q.A.8.2/target/jacoco.exec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Q.A.8.2/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Q.A.8.2/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Q.A.8.2/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Q.A.8.2/target/site/jacoco/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Q.A.8.2/target/site/jacoco/jacoco-resources/branchfc.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Q.A.8.2/target/site/jacoco/jacoco-resources/branchnc.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Q.A.8.2/target/site/jacoco/jacoco-resources/branchpc.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Q.A.8.2/target/site/jacoco/jacoco-resources/bundle.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Q.A.8.2/target/site/jacoco/jacoco-resources/class.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Q.A.8.2/target/site/jacoco/jacoco-resources/down.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Q.A.8.2/target/site/jacoco/jacoco-resources/greenbar.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Q.A.8.2/target/site/jacoco/jacoco-resources/group.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Q.A.8.2/target/site/jacoco/jacoco-resources/method.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Q.A.8.2/target/site/jacoco/jacoco-resources/package.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Q.A.8.2/target/site/jacoco/jacoco-resources/prettify.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Q.A.8.2/target/site/jacoco/jacoco-resources/prettify.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Q.A.8.2/target/site/jacoco/jacoco-resources/redbar.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Q.A.8.2/target/site/jacoco/jacoco-resources/report.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Q.A.8.2/target/site/jacoco/jacoco-resources/report.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Q.A.8.2/target/site/jacoco/jacoco-resources/session.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Q.A.8.2/target/site/jacoco/jacoco-resources/sort.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Q.A.8.2/target/site/jacoco/jacoco-resources/sort.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Q.A.8.2/target/site/jacoco/jacoco-resources/source.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Q.A.8.2/target/site/jacoco/jacoco-resources/up.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Q.A.8.2/target/site/jacoco/jacoco-sessions.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Q.A.8.2/target/site/jacoco/jacoco.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Q.A.8.2/target/site/jacoco/jacoco.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Q.A.8.2/target/site/jacoco/ru.netology.statistic/StaticsService.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Q.A.8.2/target/site/jacoco/ru.netology.statistic/StaticsService.java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Q.A.8.2/target/site/jacoco/ru.netology.statistic/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Q.A.8.2/target/site/jacoco/ru.netology.statistic/index.source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Q.A.8.2/target/surefire-reports/TEST-ru.netology.statistic.StaticsServiceTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Q.A.8.2/target/surefire-reports/ru.netology.statistic.StaticsServiceTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Q.A.8.2/target/test-classes/ru/netology/statistic/StaticsServiceTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +77,9 @@
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="mvn clean verify" />
+      <command value="mvn spotbugs:verify" />
+      <command value="mvn clean compile" />
+      <command value="mvn spotbugs:check" />
     </option>
   </component>
   <component name="RunManager">
